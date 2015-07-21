@@ -1,6 +1,6 @@
 {
   "name": "is-scoped-package",
-  "description": "My spectacular module",
+  "description": "Detect if a string is a scoped package name that could be on npm.",
   "version": "0.0.0",
   "author": {
     "name": "sanemat",
