@@ -6,7 +6,7 @@ var npa = require('npm-package-arg');
 module.exports = function (name) {
   var bool;
   try {
-    bool = isPackage(name) && (npa(name)['scope']);
+    bool = isPackage(name) && (npa(name)['scope'] !== null);
   } catch (e) {
     bool = false;
   }

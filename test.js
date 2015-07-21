@@ -2,9 +2,9 @@
 var assert = require('power-assert');
 var isScopedPackage = require('./');
 
-it('should ', function () {
-  assert.strictEqual(isScopedPackage('unicorns'), 'unicorns & rainbows');
+it('should not be scoped package', function () {
+  assert.equal(isScopedPackage('generator-nm'), false);
 });
-it('should not ', function () {
-  assert.strictEqual(isScopedPackage('unicorns'), 'unicorns & wrong');
+it('should be scoped package', function () {
+  assert.equal(isScopedPackage('@sanemat/generator-nm'), true);
 });
