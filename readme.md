@@ -46,6 +46,7 @@ Lorem ipsum.
 
 ## See also
 
+* [13 - Working with scoped packages | npm Documentation](https://docs.npmjs.com/getting-started/scoped-packages)
 * [scope | npm Documentation](https://docs.npmjs.com/misc/scope)
 * `npm help scope`
 * [validate-npm-package-name](http://npm.im/validate-npm-package-name)
