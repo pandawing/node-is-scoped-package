@@ -27,10 +27,7 @@
     "node": ">=0.10.0"
   },
   "files": [
-    "index.js",
-    "license",
-    "readme.md",
-    "changelog.md"
+    "index.js"
   ],
   "keywords": [
     "name",
