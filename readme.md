@@ -64,11 +64,11 @@ Lorem ipsum.
 MIT © [sanemat](http://sane.jp)
 
 
-[travis-url]: https://travis-ci.org/sanemat/is-scoped-package
-[travis-image]: https://img.shields.io/travis/sanemat/is-scoped-package/master.svg?style=flat-square&label=travis
-[appveyor-url]: https://ci.appveyor.com/project/sanemat/is-scoped-package/branch/master
-[appveyor-image]: https://img.shields.io/appveyor/ci/sanemat/is-scoped-package/master.svg?style=flat-square&label=appveyor
+[travis-url]: https://travis-ci.org/pandawing/node-is-scoped-package
+[travis-image]: https://img.shields.io/travis/pandawing/node-is-scoped-package/master.svg?style=flat-square&label=travis
+[appveyor-url]: https://ci.appveyor.com/project/sanemat/node-is-scoped-package/branch/master
+[appveyor-image]: https://img.shields.io/appveyor/ci/sanemat/node-is-scoped-package/master.svg?style=flat-square&label=appveyor
 [npm-url]: https://npmjs.org/package/is-scoped-package
 [npm-image]: https://img.shields.io/npm/v/is-scoped-package.svg?style=flat-square
-[daviddm-url]: https://david-dm.org/sanemat/is-scoped-package
-[daviddm-image]: https://img.shields.io/david/sanemat/is-scoped-package.svg?style=flat-square
+[daviddm-url]: https://david-dm.org/pandawing/node-is-scoped-package
+[daviddm-image]: https://img.shields.io/david/pandawing/node-is-scoped-package.svg?style=flat-square

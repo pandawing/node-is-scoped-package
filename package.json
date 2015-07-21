@@ -37,7 +37,7 @@
     "validation"
   ],
   "license": "MIT",
-  "repository": "sanemat/is-scoped-package",
+  "repository": "pandawing/node-is-scoped-package",
   "scripts": {
     "changelog": "touch changelog.md && conventional-changelog -i changelog.md --overwrite --preset angular",
     "david": "david update",
