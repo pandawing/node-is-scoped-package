@@ -17,31 +17,23 @@ $ npm install --save is-scoped-package
 ```js
 var isScopedPackage = require('is-scoped-package');
 
-isScopedPackage('unicorns');
-//=> unicorns & rainbows
+isScopedPackage('@sanemat/generator-nm');
+//=> true
+
+isScopedPackage('generator-nm');
+//=> false
 ```
-
-
 
 ## API
 
-### isScopedPackage(input, [options])
+### isScopedPackage(name) -> boolean
 
-#### input
+#### name
 
 *Required*  
 Type: `string`
 
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`  
-Default: `false`
-
-Lorem ipsum.
+Scoped package name.
 
 
 ## See also
