@@ -1,10 +1,14 @@
 'use strict';
-module.exports = function (str, opts) {
-  if (typeof str !== 'string') {
-    throw new TypeError('Expected a string');
+
+var isPackage = require('is-package');
+var npa = require('npm-package-arg');
+
+module.exports = function (name) {
+  var bool;
+  try {
+    bool = isPackage(name) && (npa(name)['scope']);
+  } catch (e) {
+    bool = false;
   }
-
-  opts = opts || {};
-
-  return str + ' & ' + (opts.postfix || 'rainbows');
+  return bool;
 };
