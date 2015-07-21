@@ -44,6 +44,15 @@ Default: `false`
 Lorem ipsum.
 
 
+## See also
+
+* [scope | npm Documentation](https://docs.npmjs.com/misc/scope)
+* `npm help scope`
+* [validate-npm-package-name](http://npm.im/validate-npm-package-name)
+* [npm-package-arg](http://npm.im/npm-package-arg)
+* [is-package](http://npm.im/is-package)
+
+
 ## Changelog
 
 [changelog.md](./changelog.md).
