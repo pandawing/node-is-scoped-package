@@ -30,7 +30,11 @@
     "index.js"
   ],
   "keywords": [
-    ""
+    "name",
+    "npm",
+    "package",
+    "scoped",
+    "validation"
   ],
   "license": "MIT",
   "repository": "sanemat/is-scoped-package",
