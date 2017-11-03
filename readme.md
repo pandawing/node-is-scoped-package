@@ -1,5 +1,7 @@
 # is-scoped-package
 
+DEPRECATED: Please use https://github.com/sindresorhus/is-scoped
+
 [![NPM version][npm-image]][npm-url] [![Travis-CI Status][travis-image]][travis-url] [![Appveyor Status][appveyor-image]][appveyor-url] [![Daviddm Status][daviddm-image]][daviddm-url]
 
 > Detect if a string is a __scoped__ package name that could be on npm
